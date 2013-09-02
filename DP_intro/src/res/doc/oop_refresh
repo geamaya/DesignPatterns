@@ -1,0 +1,21 @@
+*Class -> blueprint, template,etc.
+Inheritance ->
+*Enapsulation ->helps to protect the data. setters/getters
+*Instance variable  vs Local variable
+   Instance variable->field declare inside a class
+   Local variables are going to be created inside methods
+ 
+* Deciding whether a class should inherit from another class
+ 	Is A.------> principle helps you decide if a class should extend another
+  		Is A Dog an Animal? 
+  		Is A Dog a Cat? 
+  
+ 	Has A.  ---> principle. Helps you decide is something is a field
+		Dog has height?
+ 
+* When to use inheritance?
+  1) the subclass Is A superclass "Dog Is an Animal"
+  2) when subclass needs almost all the methods in a superclass: almost all methods in Animal are used in Dog
+  
+  Don't use inheritance just to reuse code, or they dont have the "Is A" relationship
+  
